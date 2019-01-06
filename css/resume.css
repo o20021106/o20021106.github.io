@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC);
+
+@media (max-width: 992px) {
+	#profile-img {
+		width: 200px;
+		height: 200px;
+	}
+
+}
+
+@media (min-width: 992px) {
+	#profile-img {
+		width: 300px;
+		height: 300px;
+	}
+	.date {
+		float:right;
+	}
+	.degree {
+		float:left
+	}
+	.major {
+		clear:left;
+	}
+	.experience-items-box{
+		clear:left;
+	}
+}
+
+#profile-img {
+	border: .5rem solid #EAEAEA;
+}
+
+body {
+	font-family: 'Playfair Display', sans-serif !important;
+	background-color: white;
+}
+
+.degree {
+	color: black;
+}
+
+.text-box {
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}            
+
+.profile {
+	padding-top: 140px;
+}
+
+#bio {
+	padding-top: 50px;
+	text-align:justify;
+	margin-bottom: 70px;
+}
+
+
+h2 {
+	font-size: 3rem;
+	margin-bottom: 70px;
+}
+
+h4 {
+	margin-bottom: 10px;
+
+}
+
+p{
+	margin-bottom: 0px;
+	color: #6c757d;
+}
+
+
+.degree-box {
+	margin-bottom: 40px;
+}
+
+hr {
+	border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.social {
+	margin-top: 20px;
+}
+
+.social a{
+	margin-right: 1rem;
+	display: inline-block;
+}
+
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  border: 1px solid black;
+  padding: 1.5em 1.5em;
+  color: black
+}
+
+i.fab {
+  display: inline-block;
+  border-radius: 60px;
+  border: 1px solid black;
+  padding: 1.5em 1.5em;
+  color: black
+}
