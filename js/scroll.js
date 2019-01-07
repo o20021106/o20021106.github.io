@@ -25,3 +25,11 @@ $("#navbarNav a").on('click', function(event) {
   } // End if
 
 });
+
+$(document).on('click','.navbar-collapse.show',function(e) {
+  $(this).collapse('hide');
+});
+
+$(document).click(function(event) {
+  $(event.target).closest(".navbar").length || $(".navbar-collapse.show").length && $(".navbar-collapse.show").collapse("hide")
+});
