@@ -56,6 +56,10 @@ body {
 	margin-bottom: 70px;
 }
 
+.text-block {
+	padding-bottom:70px;
+}
+
 
 h2 {
 	font-size: 3rem;
@@ -86,23 +90,38 @@ hr {
 	margin-top: 20px;
 }
 
-.social a{
-	margin-right: 1rem;
+.social-link {
+	margin: 0rem 1rem 0rem 1rem;
 	display: inline-block;
 }
 
-i.fa {
-  display: inline-block;
-  border-radius: 60px;
-  border: 1px solid black;
-  padding: 1.5em 1.5em;
-  color: black
+li { 
+  color: black;
 }
 
-i.fab {
+.button-circle {
   display: inline-block;
   border-radius: 60px;
   border: 1px solid black;
   padding: 1.5em 1.5em;
-  color: black
+  color: black;
+}
+
+a.button-circle:hover{
+  background-color: #D2D2D2;
+  color: white;
+  border: 1px solid #D2D2D2;
+}
+
+.tag {
+  padding: 0.5em 0.5em;
+}
+
+.skill-tags {
+	margin: 5px 5px 5px 5px;
+	display: inline-block;
+}
+
+footer {
+	padding: 50px 10px 70px 10px;
 }
