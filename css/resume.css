@@ -68,17 +68,21 @@ h2 {
 
 h4 {
 	margin-bottom: 10px;
-
 }
+
 
 p{
 	margin-bottom: 0px;
 	color: #6c757d;
 }
 
-
 .degree-box {
 	margin-bottom: 40px;
+}
+
+.emphasis_content {
+	color: black;
+	background-color: #D2D2D2;
 }
 
 hr {
@@ -97,6 +101,10 @@ hr {
 
 li { 
   color: black;
+}
+
+li.experience{
+  color:  #6c757d;
 }
 
 .button-circle {
